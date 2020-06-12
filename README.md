@@ -3,7 +3,7 @@ Test Images Prebuilt for Halium on Meizu Pro 5
 ---
 - How to Install:
 ---
-- Download rootfs from https://ci.ubports.com/job/xenial-rootfs-armhf/1041/ # Use this one to avoid the broken rootfs
+- Download rootfs from https://ci.ubports.com/job/xenial-rootfs-armhf/
 - Download  halium-install-standalone.sh script https://github.com/JBBgameich/halium-install/releases
 - $./halium-install-standalone.sh -p ut ./ubports-touch.rootfs-xenial-armhf.tar.gz ./system.img
 - flash  halium-boot.img $ fastboot flash boot halium-boot.img
