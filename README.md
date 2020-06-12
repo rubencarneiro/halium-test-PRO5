@@ -6,7 +6,7 @@ Test Images Prebuilt for Halium on Meizu Pro 5
 - Download rootfs from https://ci.ubports.com/job/xenial-rootfs-armhf/
 - Download  halium-install-standalone.sh script https://github.com/JBBgameich/halium-install/releases
 - $./halium-install-standalone.sh -p ut ./ubports-touch.rootfs-xenial-armhf.tar.gz ./system.img
-- flash  halium-boot.img $ fastboot flash boot halium-boot.img
+- flash  halium-boot.img $ fastboot flash bootimg halium-boot.img
 - On ubports recovery go to ubuntu actions wipe data and them boot the device.
 
 ---
